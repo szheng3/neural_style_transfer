@@ -1,14 +1,15 @@
 import click
+from transformers import pipeline
 
 @click.command()
-@click.option('--count', default=1, help='Number of greetings.')
-@click.option('--name', prompt='Your name',
-              help='The person to greet.')
-def hello(count, name):
-    # cicd
+@click.option('--models', default='openai/whisper-base', help='whisper models')
+@click.option('--path', prompt='audio file path:',
+              help='audio file path')
+def audioToText(models, path):
     """Simple program that greets NAME for a total of COUNT times."""
-    for x in range(count):
-        click.echo(f"Hello {name}!")
+    whisper = pipeline('automatic-speech-recognition', model=models)
+    text = whisper(path)
+    click.echo(text['text'])
 
 if __name__ == '__main__':
-    hello()
+    audioToText()
