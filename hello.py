@@ -1,6 +1,7 @@
 import click
 from transformers import pipeline
-
+import warnings
+warnings.filterwarnings("ignore")
 @click.command()
 @click.option('--models', default='openai/whisper-base', help='whisper models')
 @click.option('--path', prompt='audio file path:',
