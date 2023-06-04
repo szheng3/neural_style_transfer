@@ -1,4 +1,5 @@
 [![Tests](https://github.com/szheng3/neural_style_transfer/actions/workflows/python-app.yml/badge.svg)](https://github.com/szheng3/neural_style_transfer/actions/workflows/python-app.yml)
+[![Publish](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml/badge.svg)](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml)
 
 # openai whisper cli - converts speech into text
 
