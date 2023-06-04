@@ -17,6 +17,21 @@ This project aims to develop a Python command-line interface (CLI) that converts
 ## Demo
 ![image](./assets/demo1.png)
 
+## Setup Manually
+
+1. Install python
+2. Install dependencies
+```
+make install
+```
+
+
+## 
+* Run the cli
+```
+python hello.py --path audio.mp3
+```
+
   
 ## Docker(Recommended)
 
@@ -32,21 +47,6 @@ docker run szheng3/whisper-ml-cli:latest 'audio.mp3'
 * With your own audio file
 ```
 docker run -v /path/to/your/audio:/app/audio szheng3/whisper-ml-cli:latest /app/audio/audio.mp3
-```
-
-## Setup Manually
-
-1. Install python
-2. Install dependencies
-```
-make install
-```
-
-
-## 
-* Run the cli
-```
-python hello.py --path audio.mp3
 ```
 
 
