@@ -34,7 +34,7 @@ docker run szheng3/whisper-ml-cli:latest 'audio.mp3'
 1. Install python
 2. Install dependencies
 ```
-pip install -r requirements.txt
+make install
 ```
 
 
