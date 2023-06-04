@@ -29,6 +29,11 @@ docker pull szheng3/whisper-ml-cli:latest
 docker run szheng3/whisper-ml-cli:latest 'audio.mp3'
 ```
 
+* With your own audio file
+```
+docker run -v /path/to/your/audio:/app/audio szheng3/whisper-ml-cli:latest /app/audio/audio.mp3
+```
+
 ## Setup Manually
 
 1. Install python
