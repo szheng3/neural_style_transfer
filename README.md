@@ -35,7 +35,7 @@ python hello.py --path audio.mp3
   
 ## Docker(Recommended)
 
-* This repo main branch is automatically published to Dockerhub with [CI/CD](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml), you can pull the image from [here](https://hub.docker.com/repository/docker/szheng3/sz-rust-ml/general)
+* This repo main branch is automatically published to Dockerhub with [CI/CD](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml), you can pull the image from [here](https://hub.docker.com/repository/docker/szheng3/whisper-ml-cli/general)
 ```
 docker pull szheng3/whisper-ml-cli:latest
 ```
