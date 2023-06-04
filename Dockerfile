@@ -1,5 +1,5 @@
 # Use a Rust base image
-FROM python:3.10.0-alpine
+FROM python:3.10
 
 # Update the package repository and install dependencies
 RUN apt-get update && \
