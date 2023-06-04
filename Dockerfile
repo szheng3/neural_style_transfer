@@ -17,6 +17,8 @@ WORKDIR /app
 # Copy the application code
 COPY . .
 RUN pip install -r requirements.txt
+RUN make test
+
 #ENV LIBTORCH='/app/libtorch'
 #ENV LD_LIBRARY_PATH='${LIBTORCH}/lib:$LD_LIBRARY_PATH'
 
