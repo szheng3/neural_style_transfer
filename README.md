@@ -21,11 +21,11 @@ This project aims to develop a Python command-line interface (CLI) that converts
 
 * This repo main branch is automatically published to Dockerhub with [CI/CD](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml), you can pull the image from [here](https://hub.docker.com/repository/docker/szheng3/sz-rust-ml/general)
 ```
-docker pull szheng3/sz-whisper-ml-cli:latest
+docker pull szheng3/whisper-ml-cli:latest
 ```
 * Run the docker image.
 ```
-docker run szheng3/sz-whisper-ml-cli:latest 'audio.mp3'
+docker run szheng3/whisper-ml-cli:latest 'audio.mp3'
 ```
 
 ## Setup Manually
