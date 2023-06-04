@@ -1,5 +1,5 @@
-[![Tests](https://github.com/szheng3/neural_style_transfer/actions/workflows/python-app.yml/badge.svg)](https://github.com/szheng3/neural_style_transfer/actions/workflows/python-app.yml)
-[![Publish](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml/badge.svg)](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml)
+[![Tests](https://github.com/szheng3/openai_whisper_cli/actions/workflows/python-app.yml/badge.svg)](https://github.com/szheng3/openai_whisper_cli/actions/workflows/python-app.yml)
+[![Publish](https://github.com/szheng3/openai_whisper_cli/actions/workflows/publish.yml/badge.svg)](https://github.com/szheng3/openai_whisper_cli/actions/workflows/publish.yml)
 
 # openai whisper cli - converts speech into text
 
@@ -35,7 +35,7 @@ python hello.py --path audio.mp3
   
 ## Docker(Recommended)
 
-* This repo main branch is automatically published to Dockerhub with [CI/CD](https://github.com/szheng3/neural_style_transfer/actions/workflows/publish.yml), you can pull the image from [here](https://hub.docker.com/repository/docker/szheng3/whisper-ml-cli/general)
+* This repo main branch is automatically published to Dockerhub with [CI/CD](https://github.com/szheng3/openai_whisper_cli/actions/workflows/publish.yml), you can pull the image from [here](https://hub.docker.com/repository/docker/szheng3/whisper-ml-cli/general)
 ```
 docker pull szheng3/whisper-ml-cli:latest
 ```
@@ -57,7 +57,7 @@ Github Actions configured in .github/workflows
 
 
 ## GitHub releases
-The binary could be downloaded from the release pages. [release](https://github.com/szheng3/neural_style_transfer/releases)
+The binary could be downloaded from the release pages. [release](https://github.com/szheng3/openai_whisper_cli/releases)
 
 
 ## Progress Log
