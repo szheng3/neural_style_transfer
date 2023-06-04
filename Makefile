@@ -1,3 +1,9 @@
+setup:
+	pip install --upgrade pip
+	pip install -r requirements.txt
+	python setup.py develop
+
+
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt

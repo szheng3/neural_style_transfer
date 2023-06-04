@@ -32,6 +32,17 @@ make install
 python hello.py --path audio.mp3
 ```
 
+## Or run with package 
+Install dependencies
+```
+make setup
+```
+
+## 
+* Run the cli
+```
+whisper --path audio.mp3
+```
   
 ## Docker(Recommended)
 
