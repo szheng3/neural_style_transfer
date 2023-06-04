@@ -56,9 +56,6 @@ Github Actions configured in .github/workflows
 
 
 
-## GitHub releases
-The binary could be downloaded from the release pages. [release](https://github.com/szheng3/openai_whisper_cli/releases)
-
 
 ## Progress Log
 
